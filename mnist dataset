@@ -1,1 +1,3 @@
 The MNIST database contains 60,000 digits ranging from 0 to 9. Each digit is normalized and centered in a gray-level image with size 28 x 28, or with 784 pixel in total as the features
+link to download mnist dataset:https://www.kaggle.com/c/mnist-digits/data
+But in our project we have used inbuilt mnist dataset
