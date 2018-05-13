@@ -1,8 +1,10 @@
 from sklearn.naive_bayes import GaussianNB
 import matplotlib.pyplot as plt
+//importing inbuilt mnist dataset
 from sklearn import datasets
 digit=datasets.load_digits()
 labels=digit.target
+//spliting the dataset in 2 parts,first 70% is used for traing and rest 30% for testing
 from sklearn.model_selection import train_test_split
 x_train,x_test,x_label,xtest_label=train_test_split(digit.data,labels,test_size=0.3)
 gnb = GaussianNB()
