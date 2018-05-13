@@ -1,0 +1,1 @@
+The MNIST database contains 60,000 digits ranging from 0 to 9. Each digit is normalized and centered in a gray-level image with size 28 x 28, or with 784 pixel in total as the features
