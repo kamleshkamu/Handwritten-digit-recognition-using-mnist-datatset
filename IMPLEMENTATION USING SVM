@@ -1,0 +1,14 @@
+from sklearn.svm import SVC
+import matplotlib.pyplot as plt
+from sklearn import datasets
+digit=datasets.load_digits()
+labels=digit.target
+from sklearn.model_selection import train_test_split
+x_train,x_test,x_label,xtest_label=train_test_split(digit.data,labels,test_size=0.3)
+clf=SVC(gamma=0.0005)
+clf.fit(x_train,x_label)
+actual_label=xtest_label
+from sklearn.metrics import accuracy_score
+score=accuracy_score(actual_label,p)
+print("accuracy",(score)*100,"%")
+output :accuracy 99% is achived
