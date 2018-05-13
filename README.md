@@ -1,6 +1,7 @@
 # Handwritten-digit-recognition-using-mnist-datatset
 METHODOLOGY
 The proposed method use the mnist dataset and three different classifier for handwritten digit recognition.
+
 Training of datasets is done. Training data is used by the learning algorithm, usually in a supervised learning model, to increase accuracy
 The label (answer) is provided for each row in the dataset, so the algorithm can learn which data corresponds to which handwritten digit.
 However, in order to really know how well the program is doing, we need to run it on data that it’s never seen before. That’s where the cross validation set comes in.
