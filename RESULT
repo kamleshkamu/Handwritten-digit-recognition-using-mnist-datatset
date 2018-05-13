@@ -1,0 +1,3 @@
+Handwritten digit recognition using Gaussian naïve bayes:accuracy of 81.85% is achived
+Handwritten digit recognition using knn:accuracy of  98% is achived
+Handwritten digit recognition using svm:accuracy of 99% is achived
